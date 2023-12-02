@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>itung bingit</title>
+		<script type="text/javascript" >
+		
+			function kali ()
+				{
+					op = eval (mulai.kal.value) ;
+					satu = eval (mulai.satu.value) ;
+					dua = eval (mulai.dua.value) ;
+					
+					if(op=='1'){
+					    var i = satu + dua;
+						alert(i) ;
+					}
+					else if(lop=='2'){
+					     var i = satu - dua;
+						 alert(i) ;
+				    }
+					else if(lop=='3'){
+					     var i = satu * dua;
+						 alert(i) ;
+					}
+					else if(lop=='4'){
+						var i = satu / dua;
+						alert(i) ;
+					}
+					else{alert("salah")}
+				}
+		</script>
+	</head>
+	
+	<body>
+	<center>
+	     <form name="mulai">
+		 <table>
+		      <tr>
+			    <td bgcolor="oceanblue">
+				  <input type="text" name="satu" />
+				  
+				  <select name='kali' size='1'>
+				    <option value='1'>+</option>
+					<option value='2'>-</option>
+					<option value='3'>x</option>
+					<option value='4'>:</option>
+				</select>
+				
+				  <input type="text" name="dua" />
+				  <input type="button" value="=" onclick="hitung()"/>
+				</td>
+		    </tr>
+		</table>
+		</form>
+	</body>
+</html>
+				
+					
